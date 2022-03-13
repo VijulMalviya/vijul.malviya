@@ -72,7 +72,7 @@ body{
 .LandingPage main a{
     color: white;
 }
-.LandingPage main .mainbtn,.Portfolio .githubbtn .mainbtn{
+.LandingPage main .mainbtn,.Portfolio .githubbtn .mainbtn, .videobtn{
     padding: 1vmax 2vmax;
     border-radius: 30px;
     border-color: transparent;
@@ -86,6 +86,13 @@ body{
     box-shadow: 0 0 1vmax #43C6E2;
     background: linear-gradient(to left, #43C6E2, rgb(133, 227, 248));
     margin-right: 2vmax;  
+}
+.videobtn{
+    width: 20vmax;
+    background: linear-gradient(to left, #43C6E2, rgb(133, 227, 248));
+    color: white;
+    text-decoration: none;
+
 }
 .LandingPage main .btn2, .Portfolio .githubbtn .btn2{
     box-shadow: 0 0 1vmax #FC626A;
@@ -105,13 +112,13 @@ body{
     margin: 0 0.5rem;
 
 }
-.Skills .SkillsHeading .title,.Portfolio .PortfolioHeading .title{
+.Skills .SkillsHeading .title,.Portfolio .PortfolioHeading .title, .AnimatedVideo .AnimatedVideoHeading .title{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 }
-.Skills .SkillsHeading hr , .Portfolio .PortfolioHeading hr{
+.Skills .SkillsHeading hr , .Portfolio .PortfolioHeading hr, .AnimatedVideo .AnimatedVideoHeading hr{
     margin-left: 2vmax;
     width: 5vmax;
     height: 0.2vmax;
@@ -185,6 +192,16 @@ body{
     object-fit: fill;
     width: 100%;
     border: 1px solid rgb(240, 240, 240);
+   
+}
+.graphicimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.graphicimg video{
+    width: 100% ;
 }
 
 Footer{
