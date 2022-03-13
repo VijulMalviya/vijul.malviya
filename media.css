@@ -1,7 +1,10 @@
 
 @media only screen and (max-width:600px) {
     
-    .home{
+    .LandingPage{
         background-image: url('./Images/mobilebg.png');
+    }
+    .Skills .dev-box,.Skills .des-box{
+        height: 13vh;
     }
 }

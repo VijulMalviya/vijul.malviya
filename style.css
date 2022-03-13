@@ -4,7 +4,9 @@
     src: url('./Fonts/Autography-DOLnW.otf');
     font-weight: 300;
 }
-
+p{
+    margin-bottom: 0;
+}
 * {
     margin: 0;
     padding: 0;
@@ -15,20 +17,12 @@
     background-color: transparent  ;
     width: .5vmax;
 }
-
 ::-webkit-scrollbar-thumb {
     background-color: #FC626A;
 }
-
 body{
     overflow-x: hidden ;
     scroll-behavior: smooth;
-}
-.home{
-    background-image: url('./Images/landingbg.png');
-    background-repeat: no-repeat;
-    background-position:center ;
-    background-size: cover;
 }
 .LandingPage{
     position: relative;
@@ -37,7 +31,10 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    background-image: url('./Images/landingbg.png');
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
 }
 .LandingPage main{
     display: flex;
@@ -59,8 +56,7 @@ body{
 .LandingPage main h2{
     font-family: 'Autograhpy';
     font-size: 2rem;
-    margin-bottom: -10px;
-    
+    margin-bottom: -10px;    
 }
 .LandingPage main p,.LandingPage main h1{
     text-align: center;
@@ -73,7 +69,7 @@ body{
 .LandingPage main a{
     color: white;
 }
-.LandingPage main .mainbtn,.NavigationBar .mainbtn{
+.LandingPage main .mainbtn,.Portfolio .githubbtn .mainbtn{
     padding: 0.5rem 0.8rem;
     border-radius: 30px;
     border-color: transparent;
@@ -87,7 +83,7 @@ body{
     background: linear-gradient(to left, #43C6E2, rgb(133, 227, 248));
     margin-right: 2vmax;  
 }
-.LandingPage main .btn2{
+.LandingPage main .btn2, .Portfolio .githubbtn .btn2{
     box-shadow: 0 0 1vmax #FC626A;
     background: linear-gradient(to right, #FE7D84, #FC626A);
 }
@@ -99,12 +95,115 @@ body{
 .LandingPage  .socialmedialinks a{
     color: #6c757d;
     text-decoration: none;
-
 }
 .LandingPage  .socialmedialinks a i{
     font-size: 1.6rem;
     margin: 0 0.5rem;
 
+}
+.Skills .SkillsHeading .title,.Portfolio .PortfolioHeading .title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Skills .SkillsHeading hr , .Portfolio .PortfolioHeading hr{
+    margin-left: 2vmax;
+    width: 5vmax;
+    height: 0.2vmax;
+    background-color: rgb(155, 155, 155);
+    border: none;
+}
+.Skills .dev-box,.Skills .des-box{
+    width: 100%;
+    height: 20vh;
+    margin-top: 20px;
+    background-color: rgb(248, 248, 248);
+    border-radius: .5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-shadow: 0 0 2vmax rgba(230, 230, 248, 0.2);
+    padding: 2rem 2rem;
+}
+.Skills .heading{
+    margin-top: 40px;
+    margin-bottom: -30px;
+    margin-left: 20px;
+}
+.Skills  .dev-box img{
+    width: 3rem;
+    margin: 0.2rem;
+}
+.Skills  .des-box img{
+    width: 2rem;
+    margin: 0.5rem !important;
+}
+.Portfolio .tab {
+    overflow: hidden;
+    background-color: #ffffff;
+}  
+.Portfolio .tab button{
+    background: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: small;
+    color: black;
+}  
+.Portfolio .tab button:hover {
+    background: rgb(245, 245, 245);
+}  
+.Portfolio .tab button.active {
+     color: white;
+     background: linear-gradient(to right, #FE7D84, #FC626A);
+}  
+.Portfolio .tabcontent {
+    display: none;
+    padding: 2rem 0;
+    animation: fadeEffect 1s;
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.Portfolio .githubbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Portfolio .githubbtn a{
+    color: white
+}
+Footer{
+    /* background-color:  rgb(248, 248, 248); */
+    padding: 2rem;
+    text-align: center;
+    
+}
+Footer h2{
+    font-family: 'Autograhpy';
+    font-size: 3rem;
+}
+Footer h6{
+    line-height: 2rem;
+}
+Footer .mail {
+    color: #FC626A;
+}
+
+Footer .instagram {
+    color: #F6BA53;
+}
+
+Footer .linkedin {
+    color: #51CDE7;
+}
+Footer .call {
+    color: #0cc568;
 }
 
 
