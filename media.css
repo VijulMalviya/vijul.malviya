@@ -4,7 +4,5 @@
     .LandingPage{
         background-image: url('./Images/mobilebg.png');
     }
-    .Skills .dev-box,.Skills .des-box{
-        height: 13vh;
-    }
+    
 }
