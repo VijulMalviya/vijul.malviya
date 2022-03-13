@@ -200,18 +200,22 @@ Footer h6{
     line-height: 2rem;
 }
 Footer .mail {
-    color: #FC626A;
+    color: #AD0B0B;
+    text-decoration: none;
 }
 
 Footer .instagram {
-    color: #F6BA53;
+    color: #6B4606;
+    text-decoration: none;
 }
 
 Footer .linkedin {
-    color: #51CDE7;
+    color: #0C515F;
+    text-decoration: none;
 }
 Footer .call {
-    color: #0cc568;
+    color: #06562E;
+    text-decoration: none;
 }
 
 
