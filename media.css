@@ -1,0 +1,7 @@
+
+@media only screen and (max-width:600px) {
+    
+    .home{
+        background-image: url('./Images/mobilebg.png');
+    }
+}

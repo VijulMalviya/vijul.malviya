@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Seaweed+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+    background-color: transparent  ;
+    width: .5vmax;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FC626A;
+}
+
+body{
+    overflow-x: hidden ;
+    scroll-behavior: smooth;
+}
+.home{
+    background-image: url('./Images/landingbg.png');
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+}
+.NavigationBar{
+    position: fixed;
+    padding: 1rem;
+    background-color: transparent;
+    z-index: 9999;
+}
+
+.NavigationBar a{
+    color: white;
+}
+.NavigationBar .btn2{
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 1vmax #FC626A;
+    background: linear-gradient(to right, #FE7D84, #FC626A);
+}
+.LandingPage{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.LandingPage main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden !important;
+}
+.LandingPage main .profile{
+    width: 8rem;
+    height: 8rem;
+    background-image: url('./Images/vijul.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.LandingPage main h1{
+    font-family: 'Seaweed Script', cursive;
+}
+.LandingPage main p,.LandingPage main h1{
+    text-align: center;
+}
+.LandingPage .btnsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LandingPage main a{
+    color: white;
+}
+.LandingPage main .mainbtn,.NavigationBar .mainbtn{
+    padding: 0.5rem 0.8rem;
+    border-radius: 30px;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+.LandingPage main .btn1{
+    box-shadow: 0 0 1vmax #43C6E2;
+    background: linear-gradient(to left, #43C6E2, rgb(133, 227, 248));
+    margin-right: 2vmax;  
+}
+.LandingPage main .btn2{
+    box-shadow: 0 0 1vmax #FC626A;
+    background: linear-gradient(to right, #FE7D84, #FC626A);
+}
+.LandingPage  .socialmedialinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LandingPage  .socialmedialinks a{
+    color: #6c757d;
+    text-decoration: none;
+
+}
+.LandingPage  .socialmedialinks a i{
+    font-size: 1.6rem;
+    margin: 0 0.5rem;
+
+}
+
+
