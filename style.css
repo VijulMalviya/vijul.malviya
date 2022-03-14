@@ -4,6 +4,7 @@
     src: url('./Fonts/Autography-DOLnW.otf');
     font-weight: 300;
 }
+
 p{
     margin-bottom: 0;
 }
@@ -23,6 +24,29 @@ p{
 body{
     overflow-x: hidden ;
     scroll-behavior: smooth;
+}
+.loading{
+    
+    position: fixed;
+    height: 100vh;
+    background: black;
+    z-index: 9999;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading img{
+    width: 10rem;
+    animation: loading 2s ease 0s infinite alternate forwards;
+} 
+@keyframes loading{
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(1.5);
+        }
 }
 
 

@@ -1,3 +1,11 @@
+
+ $(window).on("load",function(){
+  $(".loading").fadeOut(2000);
+});
+
+
+AOS.init();
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
