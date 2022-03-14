@@ -179,6 +179,10 @@ body{
 .Portfolio .tab {
     overflow: hidden;
     background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }  
 .Portfolio .tab button{
     background: white;
@@ -186,7 +190,8 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 1.5vmax 1.5vmax;
+    padding: 1.5vmax 2.5vmax;
+    border-radius: 30px;
     transition: 0.3s;
     font-size: small;
     color: black;
